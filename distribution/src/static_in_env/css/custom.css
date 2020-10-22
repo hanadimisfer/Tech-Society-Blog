@@ -1,0 +1,7 @@
+/* your styles go here */
+.right {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+}

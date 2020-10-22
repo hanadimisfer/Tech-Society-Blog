@@ -1,0 +1,52 @@
+ {% load static %}
+ <!-- Page Footer-->
+ <footer class="main-footer ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="logo">
+            <h6 class="text-white">Tech Society</h6>
+          </div>
+          <div class="contact-details">
+            <p>Saudi Arabia, Jubail industrial </p>
+            <p>Phone: (+966) 56 248 0407</p>
+            <p>Email: <a href="mailto:hanadimisfer@gmail.com">hanadimisfer@gmail.com</a></p>
+            <ul class="social-menu">
+              <li class="list-inline-item"><a href="https://twitter.com/Hanadi_3"><i class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/hanadi_ma/"><i class="fa fa-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.pinterest.com/HanadiM1/"><i class="fa fa-pinterest"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+        <!-- Newsletter Section-->
+      
+    <section class="newsletter no-padding-top">  
+      <div class="col-8 mt-5">
+        <div class="row">
+          <div class="col-mt-6">
+            <h3>Subscribe to Newsletter</h3>
+            <p class="hero" > Sign up to receive news and updates straight in your inbox.</p>
+          </div>
+          <div class="col-md-8">
+            <div class="form-holder">
+              <form action="." method="POST">
+                {% csrf_token %}
+                <div class="form-group">
+                  <input type="email" name="email" id="email" placeholder="Type your email address">
+                  <button type="submit" class="submit" style="background-color:gray" style="color:black">Subscribe</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div>
+    <div class="copyrights">
+      <div class="container">
+        <p style="text-align:center;">2020. All rights reserved.</p>
+        <p style="text-align:center;">Template By <a href="https://bootstrapious.com/p/bootstrap-carousel" class="text-white">Bootstrapious</p>
+      </div>
+    </div>
+  </footer>
